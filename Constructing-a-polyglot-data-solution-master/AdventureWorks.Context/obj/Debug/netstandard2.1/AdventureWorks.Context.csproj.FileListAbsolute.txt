@@ -1,0 +1,14 @@
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\AdventureWorks.Context.deps.json
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\AdventureWorks.Context.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\AdventureWorks.Context.pdb
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\AdventureWorks.Models.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\AdventureWorks.Models.pdb
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.csproj.CopyComplete
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\obj\Debug\netstandard2.1\AdventureWorks.Context.pdb
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Context\bin\Debug\netstandard2.1\Cosmos.CRTCompat.dll

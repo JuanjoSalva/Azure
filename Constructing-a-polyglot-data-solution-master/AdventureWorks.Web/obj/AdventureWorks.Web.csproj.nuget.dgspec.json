@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj",
+        "projectName": "AdventureWorks.Context",
+        "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj",
+        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
+        "outputPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj": {
+                "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj",
+        "projectName": "AdventureWorks.Models",
+        "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj",
+        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
+        "outputPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj",
+        "projectName": "AdventureWorks.Web",
+        "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Web\\AdventureWorks.Web.csproj",
+        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
+        "outputPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj": {
+                "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Context\\AdventureWorks.Context.csproj"
+              },
+              "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj": {
+                "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

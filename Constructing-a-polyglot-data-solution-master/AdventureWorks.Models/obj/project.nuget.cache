@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AsSkG98dOEdEyzYlEPC8YNUm96/Z2pV1ZEf2ox0FNXwkWNtnd0mkjSLqzWDxl9iqRNXxq4Tur63V3J/t3lggBA==",
+  "success": true,
+  "projectFilePath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Models\\AdventureWorks.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juanjo\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\appsettings.Development.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\appsettings.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.deps.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.runtimeconfig.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.runtimeconfig.dev.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.RazorAssemblyInfo.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.RazorAssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.RazorTargetAssemblyInfo.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\obj\Release\netcoreapp2.1\SimpleServiceForDeploymentSlots.genruntimeconfig.cache

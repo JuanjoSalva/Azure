@@ -1,0 +1,17 @@
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\appsettings.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.deps.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.runtimeconfig.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.runtimeconfig.dev.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\bin\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.RazorAssemblyInfo.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.RazorAssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.RazorTargetAssemblyInfo.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod07\DemoFiles\Mod7Demo6Redis\BlueYonder.Hotels.Service\obj\Debug\netcoreapp2.1\BlueYonder.Hotels.Service.genruntimeconfig.cache

@@ -1,0 +1,6 @@
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\publish\appsettings.Development.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\publish\appsettings.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\publish\SimpleServiceForDeploymentSlots.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\publish\SimpleServiceForDeploymentSlots.deps.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\publish\SimpleServiceForDeploymentSlots.runtimeconfig.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod06\DemoFiles\SimpleServiceForDeploymentSlots\bin\Release\netcoreapp2.1\publish\SimpleServiceForDeploymentSlots.pdb

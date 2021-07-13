@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\JUANJO\\CURSO2020\\MODULO4_AZURE\\20487D\\AllFiles\\Mod07\\DemoFiles\\Mod7Demo6Redis\\BlueYonder.Hotels.Service\\BlueYonder.Hotels.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\JUANJO\\CURSO2020\\MODULO4_AZURE\\20487D\\AllFiles\\Mod07\\DemoFiles\\Mod7Demo6Redis\\BlueYonder.Hotels.Service\\BlueYonder.Hotels.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\JUANJO\\CURSO2020\\MODULO4_AZURE\\20487D\\AllFiles\\Mod07\\DemoFiles\\Mod7Demo6Redis\\BlueYonder.Hotels.Service\\BlueYonder.Hotels.Service.csproj",
+        "projectName": "BlueYonder.Hotels.Service",
+        "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO4_AZURE\\20487D\\AllFiles\\Mod07\\DemoFiles\\Mod7Demo6Redis\\BlueYonder.Hotels.Service\\BlueYonder.Hotels.Service.csproj",
+        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
+        "outputPath": "E:\\JUANJO\\CURSO2020\\MODULO4_AZURE\\20487D\\AllFiles\\Mod07\\DemoFiles\\Mod7Demo6Redis\\BlueYonder.Hotels.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[1.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

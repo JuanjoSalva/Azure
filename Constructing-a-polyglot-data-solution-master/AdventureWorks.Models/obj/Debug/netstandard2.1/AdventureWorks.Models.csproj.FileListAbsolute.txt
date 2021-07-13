@@ -1,0 +1,9 @@
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\bin\Debug\netstandard2.1\AdventureWorks.Models.deps.json
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\bin\Debug\netstandard2.1\AdventureWorks.Models.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\bin\Debug\netstandard2.1\AdventureWorks.Models.pdb
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\obj\Debug\netstandard2.1\AdventureWorks.Models.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\obj\Debug\netstandard2.1\AdventureWorks.Models.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\obj\Debug\netstandard2.1\AdventureWorks.Models.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\obj\Debug\netstandard2.1\AdventureWorks.Models.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\obj\Debug\netstandard2.1\AdventureWorks.Models.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\04\Starter\AdventureWorks\AdventureWorks.Models\obj\Debug\netstandard2.1\AdventureWorks.Models.pdb
