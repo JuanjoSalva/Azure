@@ -129,12 +129,12 @@ Las principales tareas de este ejercicio son las siguientes:
 
 Al ejecutar el servicio podemos ver las reservas:
 
-![inicio1](C:\Users\Juanjo\Desktop\demo3_LAK\img\inicio1.PNG)
+![inicio1](inicio1.PNG)
 
-![inicio2](C:\Users\Juanjo\Desktop\demo3_LAK\img\inicio2.PNG)
+![inicio2](inicio2.PNG)
 
 
 
 Al ejecutar el cliente vemos todo:
 
-![cliente](C:\Users\Juanjo\Desktop\demo3_LAK\img\cliente.PNG)
+![cliente](cliente.PNG)

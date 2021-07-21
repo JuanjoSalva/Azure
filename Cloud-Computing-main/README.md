@@ -19,7 +19,7 @@
 
    >**Note**: During the sign-in process, if a page appears prompting you to choose from a list of previously used accounts, select the account that you previously used, and then continue to provide your credentials.
 
-![inicio](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/inicio.PNG)
+![inicio](imagenes/inicio.PNG)
 
 
 
@@ -27,13 +27,13 @@
 
 
 
-![items](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/items.PNG)
+![items](imagenes/items.PNG)
 
 
 
 1. On the left side of the screen, click **+ Create a resource**, and then click **Web App**. The **App Name** and **Resource Group** boxes and **App Service Plan/Location** appear on the right side of the screen.
 
-![image-20201220225437288](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/web_app_1.PNG)
+![image-20201220225437288](imagenes/web_app_1.PNG)
 
 
 
@@ -57,13 +57,13 @@
 
 
 
-![web_app_2](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/web_app_2.PNG)
+![web_app_2](imagenes/web_app_2.PNG)
 
 
 
 1. Click **Create**, and then wait until the web app is deployed.
 
-![web_app_3](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/web_app_3.PNG)
+![web_app_3](imagenes/web_app_3.PNG)
 
 1. In the **All Resources** pane, click the web app that you created in the previous step (the one that is named **WebAppDemo** _YourInitials_).  
 
@@ -74,11 +74,11 @@
 15. Go over the different sections and understand their purpose:  
       a. **General** (no section): Provides an overview about the activity of the web app, access control and metadata.  
 
-![web_app_4](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/web_app_4.PNG)
+![web_app_4](imagenes/web_app_4.PNG)
 
 15.   b. **Deployments**: Controls how and when the application is deployed.  
       c. **Settings**: Allows you to control settings such as monitoring capabilities, remote access, security tokens, scaling and more.
 
 
 
-15. Close all open windows.![web_app_5](https://github.com/JuanjoSalva/Cloud-Computing/blob/main/web_app_5.PNG)
+15. Close all open windows.![web_app_5](imagenes/web_app_5.PNG)

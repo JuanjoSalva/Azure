@@ -94,9 +94,9 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
    > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-![1sqldatabasedef](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/1sqldatabasedef.PNG)
+![1sqldatabasedef](img/1sqldatabasedef.PNG)
 
-![2sqldatabasecreada](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/2sqldatabasecreada.PNG)
+![2sqldatabasecreada](img/2sqldatabasecreada.PNG)
 
 #### Task 3: Create an Azure Cosmos DB account resource
 
@@ -140,9 +140,9 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
    > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-   ![3cosmosdef](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/3cosmosdef.PNG)
+   ![3cosmosdef](img/3cosmosdef.PNG)
 
-   ![3Cosmoscreada](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/3Cosmoscreada.PNG)
+   ![3Cosmoscreada](img/3Cosmoscreada.PNG)
 
    
 
@@ -156,7 +156,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1. In the Keys pane, record the value in the **PRIMARY CONNECTION STRING** text box. You'll use this value later in this lab.
 
-   ![3_1primarykey](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/3_1primarykey.PNG)
+   ![3_1primarykey](img/3_1primarykey.PNG)
 
 #### Task 4: Create an Azure Storage account resource
 
@@ -198,9 +198,9 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
    > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-![4storagedef](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/4storagedef.PNG)
+![4storagedef](img/4storagedef.PNG)
 
-![5storagecreado](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/5storagecreado.PNG)
+![5storagecreado](img/5storagecreado.PNG)
 
 #### Review
 
@@ -228,7 +228,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    1. Select **OK**.
 
-      ![6containerblob](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/6containerblob.PNG)
+      ![6containerblob](img/6containerblob.PNG)
 
       
 
@@ -238,7 +238,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1. In the Properties pane, record the value in the **URL** text box. You'll use this value later in this lab.
 
-   ![7propiedadescontainer](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/7propiedadescontainer.PNG)
+   ![7propiedadescontainer](img/7propiedadescontainer.PNG)
 
 1. Find and select the **Overview** link from the blade.
 
@@ -254,7 +254,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    > **Note**: Wait for all the blobs to upload before you continue with this lab.
 
-![8cargarimagenes](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/8cargarimagenes.PNG)
+![8cargarimagenes](img/8cargarimagenes.PNG)
 
 
 
@@ -270,7 +270,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1. In the **Containers** section, select **+ Container**.
 
-   ![9creamoscontainer](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/9creamoscontainer.PNG)
+   ![9creamoscontainer](img/9creamoscontainer.PNG)
 
 1. In the **New container** pop-up, perform the following actions:
 
@@ -294,7 +294,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    > **Note**: Wait for the blob to upload before you continue with this lab.
 
-![10subidobacpac](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/10subidobacpac.PNG)
+![10subidobacpac](img/10subidobacpac.PNG)
 
 #### Task 3: Import an SQL database
 
@@ -332,9 +332,9 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    > **Note**: Wait for the database to be created before you continue with this lab. If you receive a firewall-related error on the import step, it means you did not correctly configure the **Allow Azure services to access server** setting on your SQL Server earlier in the lab.  Review your settings, delete the empty **AdventureWorks** database, and then attempt your import again.
 
-![11Importandobbdd](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/11Importandobbdd.PNG)
+![11Importandobbdd](img/11Importandobbdd.PNG)
 
-![12bbddimportada](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/12bbddimportada.PNG)
+![12bbddimportada](img/12bbddimportada.PNG)
 
 #### Task 4: Use an imported SQL database
 
@@ -356,7 +356,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    > **Note**: This step will ensure that your local machine will have access to the databases that are associated with this server.
 
-   ![13anadimosiop](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/13anadimosiop.PNG)
+   ![13anadimosiop](img/13anadimosiop.PNG)
 
 1. In the Azure portal's navigation pane, select the **Resource groups** link.
 
@@ -366,7 +366,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1. From the **SQL database** blade, find the **Settings** section from the blade, and then select the **Connection strings** link.
 
-   ![14connectionstring](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/14connectionstring.PNG)
+   ![14connectionstring](img/14connectionstring.PNG)
 
 1. In the Connection strings pane, record the value in the **ADO.NET (SQL Authentication)** text box. You'll use this value later in this lab.
 
@@ -388,7 +388,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    1. Select **OK**.
 
-      ![15Editorsql](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/15Editorsql.PNG)
+      ![15Editorsql](img/15Editorsql.PNG)
 
 1. In the open query editor, enter the following query:
 
@@ -400,7 +400,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
    > **Note**: This query will return a list of models from the home page of the web application.
 
-   ![16select1](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/16select1.PNG)
+   ![16select1](img/16select1.PNG)
 
 1. In the query editor, replace the existing query with the following query:
 
@@ -414,11 +414,11 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 
 
-#### ![16select2](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/16select2.PNG)
+#### ![16select2](img/16select2.PNG)
 
 Lo podemos ver también en el Azure Data Studio
 
-![16select3](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/16select3.PNG)
+![16select3](img/16select3.PNG)
 
 #### Review
 
@@ -502,25 +502,25 @@ In this exercise, you imported all the resources that you'll use with your web a
 
    > **Note**: The **dotnet run** command will automatically build any changes to the project and then start the web application without a debugger attached. The command will output the URL of the running application and any assigned ports.
 
-   ![17build](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/17build.PNG)
+   ![17build](img/17build.PNG)
 
-   ![18run](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/18run.PNG)
+   ![18run](img/18run.PNG)
 
 1. On the taskbar, select the **Microsoft Edge** icon.
 
 1. In the open browser window, browse to the currently running web application (<http://localhost:5000>).
 
-   ![19web](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/19web.PNG)
+   ![19web](img/19web.PNG)
 
 1. In the web application, observe the list of models displayed from the front page.
 
 1. Find the **Water Bottle** model, and then select **View Details**.
 
-   ![20bottle](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/20bottle.PNG)
+   ![20bottle](img/20bottle.PNG)
 
 1. From the **Water Bottle** product detail page, find **Add to Cart**, and then observe that the checkout functionality is currently disabled.
 
-   ![20bottledisabled](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/20bottledisabled.PNG)
+   ![20bottledisabled](img/20bottledisabled.PNG)
 
 1. Close the browser window displaying your web application.
 
@@ -560,7 +560,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
    > **Note**: The **dotnet add reference** command will add a reference to the context classes contained in the **AdventureWorks.Context** project.
 
-   ![21MIgratecreadoyanadido](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/21MIgratecreadoyanadido.PNG)
+   ![21MIgratecreadoyanadido](img/21MIgratecreadoyanadido.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to switch your terminal context to the **AdventureWorks.Migrate** folder:
 
@@ -576,7 +576,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.EntityFrameworkCore.SqlServer** package from **NuGet**. For more information, go to: [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.0.1).
 
-   ![22entityframework](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/22entityframework.PNG)
+   ![22entityframework](img/22entityframework.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to import version 3.4.1 of **Microsoft.Azure.Cosmos** from NuGet:
 
@@ -586,7 +586,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.Cosmos** package from **NuGet**. For more information, go to: [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1).
 
-   ![23azurecosmos](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/23azurecosmos.PNG)
+   ![23azurecosmos](img/23azurecosmos.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to build the .NET console application:
 
@@ -594,7 +594,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
    dotnet build
    ```
 
-   ![24construimos](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/24construimos.PNG)
+   ![24construimos](img/24construimos.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -652,7 +652,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
    > **Note**: It's important that you use your updated connection string here. The original connection string copied from the portal won't have the username and password necessary to connect to the SQL database.
 
-   ![25conectionstring](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/25conectionstring.PNG)
+   ![25conectionstring](img/25conectionstring.PNG)
 
 1. Within the **Program** class, enter the following line of code to create a new string constant named **cosmosDBConnectionString**: 
 
@@ -809,7 +809,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\04\\Solution\\AdventureWorks\\AdventureWorks.Migrate** folder.
 
-![26Build](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/26Build.PNG)
+![26Build](img/26Build.PNG)
 
 #### Task 5: Perform a migration
 
@@ -821,7 +821,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
    > **Note**: The **dotnet run** command will start the console application.
 
-   ![27run](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/27run.PNG)
+   ![27run](img/27run.PNG)
 
 1. Observe the various data that prints to the screen, including initial SQL record count, individual upsert activity identifiers, and final Azure Cosmos DB document count.
 
@@ -851,7 +851,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
    SELECT * FROM models
    ```
 
-   ![28items](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/28items.PNG)
+   ![28items](img/28items.PNG)
 
 1. Select **Execute Query**, and then observe the list of JSON models that the query returns.
 
@@ -861,7 +861,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
    SELECT VALUE COUNT(1) FROM models
    ```
 
-   ![28items_1](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/28items_1.PNG)
+   ![28items_1](img/28items_1.PNG)
 
 1. Select **Execute Query**, and then observe the result of the **COUNT** aggregate operation.
 
@@ -891,7 +891,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.Cosmos** package from **NuGet**. For more information, go to: [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1).
 
-   ![29anadimos](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/29anadimos.PNG)
+   ![29anadimos](img/29anadimos.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
@@ -899,7 +899,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
    dotnet build
    ```
 
-   ![30build](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/30build.PNG)
+   ![30build](img/30build.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -1057,7 +1057,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
    return matches.SingleOrDefault();
    ```
 
-   ![31code](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/31code.PNG)
+   ![31code](img/31code.PNG)
 
 1. Save the **AdventureWorksCosmosContext.cs** file.
 
@@ -1077,7 +1077,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
    > **Note**: If there are any build errors, review the **AdventureWorksCosmosContext.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\04\\Solution\\AdventureWorks\\AdventureWorks.Context** folder.
 
-   ![32build](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/32build.PNG)
+   ![32build](img/32build.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -1097,7 +1097,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
    },
    ```
 
-   ![34code](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/34code.PNG)
+   ![34code](img/34code.PNG)
 
 1. Update the value of the **AdventureWorksCosmosContext** property by setting its value to the **PRIMARY CONNECTION STRING** of the Azure Cosmos DB account that you recorded earlier in this lab.
 
@@ -1142,7 +1142,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
    );
    ```
 
-   ![35build](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/35build.PNG)
+   ![35build](img/35build.PNG)
 
 1. Save the **Startup.cs** file.
 
@@ -1168,7 +1168,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
 1. In the open browser window, browse to the currently running web application (<http://localhost:5000>).
 
-1. In the web application, observe the list of models displayed from the front page.![36web](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/36web.PNG)
+1. In the web application, observe the list of models displayed from the front page.![36web](img/36web.PNG)
 
 1. Find the **Touring-1000** model, and then select **View Details**.
 
@@ -1178,7 +1178,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
    1. Find **Add to Cart**, and then observe that the checkout functionality is still disabled.
 
-      ![37webenabled](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/37webenabled.PNG)
+      ![37webenabled](img/37webenabled.PNG)
 
 1. Close the browser window displaying your web application.
 
@@ -1210,7 +1210,7 @@ In this exercise, you wrote C# code to query an Azure Cosmos DB collection by us
    az group delete --name PolyglotData --no-wait --yes
    ```
 
-   ![borradabbdd](https://github.com/JuanjoSalva/Constructing-a-polyglot-data-solution/blob/master/img/borradabbdd.PNG)
+   ![borradabbdd](img/borradabbdd.PNG)
 
 1. Close the Cloud Shell pane in the portal.
 
