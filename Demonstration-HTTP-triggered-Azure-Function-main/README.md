@@ -4,7 +4,7 @@
 
 **Creamos funcion en Azure**
 
-![funcion_reada](Funcionreada.PNG)
+![funcion_reada](funcion_reada.PNG)
 
 
 
