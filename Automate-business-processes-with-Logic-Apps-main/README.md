@@ -48,9 +48,9 @@
 
    > **Note**: Wait for Azure to finish creating the API Management resource prior to moving on in the lab. You will receive a notification when the resource is created.
 
-![APIMdef](APIMdef.PNG)
+![APIMdef](img/APIMdef.PNG)
 
-![APIMcreate](APIMcreate.PNG)
+![APIMcreate](img/APIMcreate.PNG)
 
 #### Task 3: Create a Logic App resource
 
@@ -90,11 +90,11 @@
 
    > **Note**: Wait for Azure to finish creating the Logic Apps resource prior to moving on in the lab. You will receive a notification when the resource is created.
 
-![LogigApDefn](LogigApDefn.PNG)
+![LogigApDefn](img/LogigApDefn.PNG)
 
 
 
-![LogigApCreate](LogigApCreate.PNG)
+![LogigApCreate](img/LogigApCreate.PNG)
 
 #### Task 4: Create a storage account
 
@@ -134,9 +134,9 @@
 
    > **Note**: On the **Deployment** blade, wait for the creation task to complete before moving on in this lab.
 
-![StorageAccountDefn](StorageAccountDefn.PNG)
+![StorageAccountDefn](img/StorageAccountDefn.PNG)
 
-![StorageAccountCreate](StorageAccountCreate.PNG)
+![StorageAccountCreate](img/StorageAccountCreate.PNG)
 
 #### Task 5: Upload sample content to Azure Files
 
@@ -158,9 +158,9 @@
 
    1.  Select **Create**.
 
-   ![File1](File1.PNG)
+   ![File1](img/File1.PNG)
 
-   ![File2](File2.PNG)
+   ![File2](img/File2.PNG)
 
 1. Back in the **File shares** section, select the recently created **metadata** share.
 
@@ -186,7 +186,7 @@
 
    > **Note**: Wait for the blob to upload before you continue with this lab.
 
-![uploadfiles](uploadfiles.PNG)
+![uploadfiles](img/uploadfiles.PNG)
 
 #### Review
 
@@ -204,57 +204,57 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1. On the **Logic Apps Designer** blade, select the **Blank Logic App** template.
 
-   ![blank](blank.PNG)
+   ![blank](img/blank.PNG)
 
 1. In the **Designer** area, perform the following actions to add a **When a HTTP request is received (Request)** trigger:
 
    1. In the **Search connectors and triggers** field, enter **HTTP**.
 
-      ![searchhttp7](searchhttp7.PNG)
+      ![searchhttp7](img/searchhttp7.PNG)
 
    1. In the category list, select **Request**.
 
-      ![requestselect](requestselect.PNG)
+      ![requestselect](img/requestselect.PNG)
 
    1. In the **Triggers** result list, select **When a HTTP request is received**.
 
-      ![whenhttp](whenhttp.PNG)
+      ![whenhttp](img/whenhttp.PNG)
 
 1. In the **When a HTTP request is received** area, perform the following actions to configure the **When a HTTP request is received (Request)** trigger:
 
    1. In the **Add new parameter** list, select **Method**.
 
-      ![method](method.PNG)
+      ![method](img/method.PNG)
 
    1. In the **Method** list, select **GET**.
 
-      ![get](get.PNG)
+      ![get](img/get.PNG)
 
 #### Task 2: Create an action to query Azure Storage file shares
 
 1. In the **Designer** area, select **+ New step**, and then perform the following actions to add a **List files (Azure File Storage)** action:
 
-   ![step](step.PNG)
+   ![step](img/step.PNG)
 
    1. In the **Search connectors and triggers** field, enter **files**.
 
-      ![files](files.PNG)
+      ![files](img/files.PNG)
 
    1. In the category list, select **Azure File Storage**.
 
-      ![azurefiles](azurefiles.PNG)
+      ![azurefiles](img/azurefiles.PNG)
 
    1. In the **Actions** result list, select **List files**.
 
-      ![listfiles](listfiles.PNG)
+      ![listfiles](img/listfiles.PNG)
 
    1. In the **Connection Name** field, enter **filesConnection**.
 
-      ![filesconection](filesconection.PNG)
+      ![filesconection](img/filesconection.PNG)
 
    1. In the **Storage Account** section, select the **prodstor*[yourname]*** storage account that you created earlier in this lab, and then select **Create**.
 
-      ![create1](create1.PNG)
+      ![create1](img/create1.PNG)
 
    1. Wait for the connector resource to finish creating.
 
@@ -264,7 +264,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1. In the **List files** area, in the **Folder** text box, enter **/metadata**.
 
-   ![create2](create2.PNG)
+   ![create2](img/create2.PNG)
 
 #### Task 3: Create an action to project list item properties
 
@@ -272,7 +272,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1. In the **Designer** area, perform the following actions to add an **Select (Data Operations)** action:
 
-   ![dataoperation](dataoperation.PNG)
+   ![dataoperation](img/dataoperation.PNG)
 
    1. In the **Search connectors and triggers** field, enter **select**.
 
@@ -280,7 +280,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
    1. In the **Actions** result list, select **Select**.
 
-      ![select](select.PNG)
+      ![select](img/select.PNG)
 
 1. In the **Select** area, perform the following actions to configure the **Select (Data Operations)** action:
 
@@ -290,7 +290,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
    1. In the **Map** field, in the **Dynamic content** list, within the **List files** category, select **Name**.
 
-      ![logic1PNG](logic1PNG.PNG)
+      ![logic1PNG](img/logic1PNG.PNG)
 
 #### Task 4: Build an HTTP response action
 
@@ -308,7 +308,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1. In the **Designer** area, select **Save**.
 
-   ![logic2](logic2.PNG)
+   ![logic2](img/logic2.PNG)
 
 #### Review
 
@@ -326,7 +326,7 @@ In this exercise, you built a basic workflow that starts when it's triggered by 
 
 1. From the **API Management Service** blade, in the **API Management** section, select **APIs**.
 
-   ![Apis](Apis.PNG)
+   ![Apis](img/Apis.PNG)
 
 1. In the **Add a new API** section, select **Logic App**.
 
@@ -348,7 +348,7 @@ In this exercise, you built a basic workflow that starts when it's triggered by 
 
    > **Note**: Wait for the new API to finish being created.
 
-![apisdef](apisdef.PNG)
+![apisdef](img/apisdef.PNG)
 
 #### Task 2: Test the API operation
 
@@ -366,13 +366,13 @@ In this exercise, you built a basic workflow that starts when it's triggered by 
 
 1.  Return to your browser window with the Azure portal.
 
-![test](test.PNG)
+![test](img/test.PNG)
 
 
 
-![testresult](testresult.PNG)
+![testresult](img/testresult.PNG)
 
-![result](resultado.PNG)
+![result](img/resultado.PNG)
 
 #### Review
 

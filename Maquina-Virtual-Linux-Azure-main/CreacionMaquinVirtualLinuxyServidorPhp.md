@@ -6,13 +6,13 @@
 az login
 ```
 
-![image-20201116230804470](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116230804470.png)
+![image-20201116230804470](images/image-20201116230804470.png)
 
-![image-20201116230854908](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116230854908.png)
+![image-20201116230854908](images/image-20201116230854908.png)
 
-![image-20201116230921196](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116230921196.png)
+![image-20201116230921196](images/image-20201116230921196.png)
 
-![image-20201116231010716](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116231010716.png)
+![image-20201116231010716](images/image-20201116231010716.png)
 
 
 
@@ -22,9 +22,9 @@ az login
 az group create -l EastUS -n myRGCLI 
 ```
 
-![image-20201116231051102](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116231051102.png)
+![image-20201116231051102](images/image-20201116231051102.png)
 
-![image-20201116231230703](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116231230703.png)
+![image-20201116231230703](images/image-20201116231230703.png)
 
 
 
@@ -41,15 +41,15 @@ az vm create ^
  --no-wait
 ```
 
-![image-20201116232818758](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116232818758.png)
+![image-20201116232818758](images/image-20201116232818758.png)
 
-![image-20201116233044148](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116233044148.png)
+![image-20201116233044148](images/image-20201116233044148.png)
 
 
 
 Conectarse a la máquina Virtual de Linux
 
-![image-20201116233108760](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116233108760.png)
+![image-20201116233108760](images/image-20201116233108760.png)
 
 
 
@@ -58,9 +58,9 @@ ssh azureuser@23.96.93.40
 Nota: Dar que si en la creación del certificado SSH
 ```
 
-![image-20201116233233350](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116233233350.png)
+![image-20201116233233350](images/image-20201116233233350.png)
 
-![image-20201116234014697](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234014697.png)
+![image-20201116234014697](images/image-20201116234014697.png)
 
 
 
@@ -72,7 +72,7 @@ Nota: Dar que si en la creación del certificado SSH
 sudo apt-get update
 ```
 
-![image-20201116234125815](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234125815.png)
+![image-20201116234125815](images/image-20201116234125815.png)
 
 
 
@@ -82,7 +82,7 @@ sudo apt-get update
 sudo apt upgrade
 ```
 
-![image-20201116234212433](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234212433.png)
+![image-20201116234212433](images/image-20201116234212433.png)
 
 
 
@@ -92,7 +92,7 @@ sudo apt upgrade
 sudo apt install -y apache2 apache2-utils
 ```
 
-![image-20201116234301883](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234301883.png)
+![image-20201116234301883](images/image-20201116234301883.png)
 
 
 
@@ -102,7 +102,7 @@ sudo apt install -y apache2 apache2-utils
 systemctl status apache2
 ```
 
-![image-20201116234322162](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234322162.png)
+![image-20201116234322162](images/image-20201116234322162.png)
 
 
 
@@ -112,7 +112,7 @@ systemctl status apache2
 cd /var/www/html
 ```
 
-![image-20201116234347582](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234347582.png)
+![image-20201116234347582](images/image-20201116234347582.png)
 
 6 - Poner una nota en la página inde.html
 
@@ -124,7 +124,7 @@ sudo vi index.html <ENTER>
 
 ```
 
-![image-20201116235157691](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235157691.png)
+![image-20201116235157691](images/image-20201116235157691.png)
 
 7 - Salir del SSH
 
@@ -140,13 +140,13 @@ Destination PortRanges: 80
 
 Name: Port_80
 
-![image-20201116234724276](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116234724276.png)
+![image-20201116234724276](images/image-20201116234724276.png)
 
 
 
 Probariamos que llegamos a la maquina virtual: con la IP desde cualquier navegador.
 
-![image-20201116235301777](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235301777.png)
+![image-20201116235301777](images/image-20201116235301777.png)
 
 ## Parar y "deallocate" la máquina virtual
 
@@ -158,11 +158,11 @@ az vm stop --resource-group myRGCLI --name myVMCLI --no-wait
 az vm deallocate -g myRGCLI -n myVMCLI --no-wait
 ```
 
-![image-20201116235443451](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235443451.png)
+![image-20201116235443451](images/image-20201116235443451.png)
 
-![image-20201116235512729](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235512729.png)
+![image-20201116235512729](images/image-20201116235512729.png)
 
-![image-20201116235541768](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235541768.png)
+![image-20201116235541768](images/image-20201116235541768.png)
 
 
 
@@ -172,7 +172,7 @@ az vm deallocate -g myRGCLI -n myVMCLI --no-wait
 az vm start -g myRGCLI -n myVMCLI --no-wait
 ```
 
-![image-20201116235612455](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235612455.png)
+![image-20201116235612455](images/image-20201116235612455.png)
 
 
 
@@ -182,9 +182,9 @@ az vm start -g myRGCLI -n myVMCLI --no-wait
 az vm delete -g myRGCLI -n myVMCLI --yes --no-wait
 ```
 
-![image-20201116235948425](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201116235948425.png)
+![image-20201116235948425](images/image-20201116235948425.png)
 
-![image-20201117000134808](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201117000134808.png)
+![image-20201117000134808](images/image-20201117000134808.png)
 
 
 
@@ -194,7 +194,7 @@ az vm delete -g myRGCLI -n myVMCLI --yes --no-wait
 az vm show -g myRGCLI -n myVMCLI -d
 ```
 
-![image-20201117000050953](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201117000050953.png)
+![image-20201117000050953](images/image-20201117000050953.png)
 
 
 
@@ -204,9 +204,9 @@ Borrar el grupo de recursos
 az group delete -n myRGCLI  --yes --no-wait
 ```
 
-![image-20201117000242964](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201117000242964.png)
+![image-20201117000242964](images/image-20201117000242964.png)
 
-![image-20201117000435441](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201117000435441.png)
+![image-20201117000435441](images/image-20201117000435441.png)
 
 
 
@@ -216,7 +216,7 @@ az group delete -n myRGCLI  --yes --no-wait
 az logout
 ```
 
-![image-20201117000932443](https://github.com/JuanjoSalva/Maquina-Virtual-Linux-Azure/blob/main/images/image-20201117000932443.png)
+![image-20201117000932443](images/image-20201117000932443.png)
 
 Mas información:
 

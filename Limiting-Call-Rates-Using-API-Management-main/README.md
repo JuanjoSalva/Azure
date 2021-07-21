@@ -8,15 +8,15 @@ Dentro del API Managment
 
 Seleccionamos nuestra APIS
 
-![API](https://github.com/JuanjoSalva/Limiting-Call-Rates-Using-API-Management/blob/main/API.PNG)
+![API](img/API.PNG)
 
 Seleccionamos todas las operaciones
 
 En el panel de Inbound processing pinchamos en el simbolod e xml e insertamos este código:
 
-![xml](https://github.com/JuanjoSalva/Limiting-Call-Rates-Using-API-Management/blob/main/xml.PNG)
+![xml](img/xml.PNG)
 
-![codigo](https://github.com/JuanjoSalva/Limiting-Call-Rates-Using-API-Management/blob/main/codigo.PNG)
+![codigo](img/codigo.PNG)
 
 
 
@@ -26,14 +26,14 @@ Hemos creado una politíca a todos los métodos de manera que a la tercera vez q
 
 Una vez:
 
-![2](https://github.com/JuanjoSalva/Limiting-Call-Rates-Using-API-Management/blob/main/1.PNG)
+![2](img/1.PNG)
 
 Dos veces:
 
-![2](https://github.com/JuanjoSalva/Limiting-Call-Rates-Using-API-Management/blob/main/1.PNG)
+![2](img/1.PNG)
 
 
 
 Tres veces:
 
-![3](https://github.com/JuanjoSalva/Limiting-Call-Rates-Using-API-Management/blob/main/1.PNG)
+![3](img/1.PNG)

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6BFy+beI6PJ670RoXCPi+H3elK9iuYrxJFx+O7FRNjCDGG/bpoDpAk3UIWBi4PYQ3HwJYOdNwaFu4t4/CDJpQg==",
+  "success": true,
+  "projectFilePath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\12\\Starter\\Console\\SimpleConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juanjo\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

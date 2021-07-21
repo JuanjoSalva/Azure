@@ -4,14 +4,14 @@
 
 **Creamos funcion en Azure**
 
-![funcion_reada](funcion_reada.PNG)
+![funcion_reada](img/funcion_reada.PNG)
 
 
 
 **Creamos el Trigger**
 
-![trigger](trigger.PNG)
+![trigger](img/trigger.PNG)
 
 **Vemos el resultado**
 
-![resultado2](resultado.PNG)
+![resultado2](img/resultado.PNG)

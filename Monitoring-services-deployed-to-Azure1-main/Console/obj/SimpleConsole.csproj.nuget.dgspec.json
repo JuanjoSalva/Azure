@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\12\\Starter\\Console\\SimpleConsole.csproj": {}
+  },
+  "projects": {
+    "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\12\\Starter\\Console\\SimpleConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\12\\Starter\\Console\\SimpleConsole.csproj",
+        "projectName": "SimpleConsole",
+        "projectPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\12\\Starter\\Console\\SimpleConsole.csproj",
+        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
+        "outputPath": "E:\\JUANJO\\CURSO2020\\MODULO5_AZURE2\\AZ-204\\Allfiles\\Labs\\12\\Starter\\Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

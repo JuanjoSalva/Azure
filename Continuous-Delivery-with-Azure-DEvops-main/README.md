@@ -4,7 +4,7 @@
 
 **Creamos App Services desde azure**
 
-![creamosappserviceazure](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/creamosappserviceazure.PNG)
+![creamosappserviceazure](img/creamosappserviceazure.PNG)
 
 
 
@@ -12,19 +12,19 @@
 
 Creamos el proyecto MyApp
 
-![CreamosDevops](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/CreamosDevops.PNG)
+![CreamosDevops](img/CreamosDevops.PNG)
 
 
 
 **Creamos Pipeline**
 
-![Pipeline](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/Pipeline.PNG)
+![Pipeline](img/Pipeline.PNG)
 
 
 
 **Clonamos el Serice App en Visual Code**
 
-![DevopsClonar](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/DevopsClonar.PNG)
+![DevopsClonar](img/DevopsClonar.PNG)
 
 
 
@@ -62,7 +62,7 @@ Creamos el proyecto MyApp
       \- Repository->MyApp
       \- Branch->Master ->Continue ->Finish
 
-  ![repos](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/repos.PNG)
+  ![repos](img/repos.PNG)
 
 
 
@@ -70,14 +70,14 @@ Creamos el proyecto MyApp
 
 Cuando hacemos push en el Visual Code se publica en el Pipelibe. 
 
-![pipeline2](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/pipeline2.PNG)
+![pipeline2](img/pipeline2.PNG)
 
 
 
 **Cuando acaba**
 
-![pipeline3](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/pipeline3.PNG)
+![pipeline3](img/pipeline3.PNG)
 
 **Una vez publicado podemos verlo en la web**
 
-![web](https://github.com/JuanjoSalva/Web-Deployment-with-Microsoft-Visual-Studio/blob/main/img/web.PNG)
+![web](img/web.PNG)

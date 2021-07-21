@@ -58,13 +58,13 @@
 
 **Vamos a nuestra cuenta de Azure y creamos un Storage con un contenedor blob donde subimos 2 imagenes**
 
-![14_p11](https://github.com/JuanjoSalva/How-to-Upload-an-Image-to-Microsoft-Azure-Blob-Storage/blob/master/AzureStorageDemo/img/14_p11.PNG)
+![14_p11](img/14_p11.PNG)
 
-![14_p13](https://github.com/JuanjoSalva/How-to-Upload-an-Image-to-Microsoft-Azure-Blob-Storage/blob/master/AzureStorageDemo/img/14_p13.PNG)
+![14_p13](img/14_p13.PNG)
 
 
 
-![14_15](https://github.com/JuanjoSalva/How-to-Upload-an-Image-to-Microsoft-Azure-Blob-Storage/blob/master/AzureStorageDemo/img/14_15.PNG)
+![14_15](img/14_15.PNG)
 
 ** Ahora con el Visual Studio modificamos el proyecto para que suba a Azure imagenes de nuestro Local**
 
@@ -247,15 +247,15 @@
 
 ** Imagenes de estos últimos pasos**
 
-![index](https://github.com/JuanjoSalva/How-to-Upload-an-Image-to-Microsoft-Azure-Blob-Storage/blob/master/AzureStorageDemo/img/index.PNG)
+![index](img/index.PNG)
 
 Yo he subido 
 
-![upload](https://github.com/JuanjoSalva/How-to-Upload-an-Image-to-Microsoft-Azure-Blob-Storage/blob/master/AzureStorageDemo/img/upload.PNG)
+![upload](img/upload.PNG)
 
 
 
 Y se ve como está en Azure
 
-![image-20201217152810810](https://github.com/JuanjoSalva/How-to-Upload-an-Image-to-Microsoft-Azure-Blob-Storage/blob/master/AzureStorageDemo/img/ultima.PNG)
+![image-20201217152810810](img/ultima.PNG)
 

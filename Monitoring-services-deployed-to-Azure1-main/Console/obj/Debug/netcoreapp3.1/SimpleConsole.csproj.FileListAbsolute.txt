@@ -1,0 +1,15 @@
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\SimpleConsole.exe
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\SimpleConsole.deps.json
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\SimpleConsole.runtimeconfig.json
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\SimpleConsole.runtimeconfig.dev.json
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\SimpleConsole.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\SimpleConsole.pdb
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\bin\Debug\netcoreapp3.1\Polly.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.csproj.CopyComplete
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.dll
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.pdb
+E:\JUANJO\CURSO2020\MODULO5_AZURE2\AZ-204\Allfiles\Labs\12\Starter\Console\obj\Debug\netcoreapp3.1\SimpleConsole.genruntimeconfig.cache

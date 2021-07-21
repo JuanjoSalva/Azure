@@ -56,7 +56,7 @@
 
    1. In the **Image and tag** text box, enter **kennethreitz/httpbin:latest**.
 
-      ![webappdefn](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/webappdefn.PNG)
+      ![webappdefn](img/webappdefn.PNG)
 
    1. Select **Review + Create**.
 
@@ -66,7 +66,7 @@
 
    > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-![webappcreate](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/webappcreate.PNG)
+![webappcreate](img/webappcreate.PNG)
 
 #### Task 3: Test the httpbin web application
 
@@ -80,7 +80,7 @@
 
    
 
-   ![browser](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/browser.PNG)
+   ![browser](img/browser.PNG)
 
    
 
@@ -94,7 +94,7 @@
 
    1. Select **Execute**.
 
-      ![tryit](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/tryit.PNG)
+      ![tryit](img/tryit.PNG)
 
       
 
@@ -112,7 +112,7 @@
 
 1. In the **Properties** section, record the value of the **URL** text box. You'll use this value later in the lab to make requests against the API.
 
-![url](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/url.PNG)
+![url](img/url.PNG)
 
 #### Review
 
@@ -145,9 +145,9 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-![APIMdefn](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/APIMdefn.PNG)
+![APIMdefn](img/APIMdefn.PNG)
 
-![APIMcreate](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/APIMcreate.PNG)
+![APIMcreate](img/APIMcreate.PNG)
 
 #### Task 2: Define a new API
 
@@ -173,13 +173,13 @@ In this exercise, you created a new Azure web app by using a container image sou
 
    1. Leave the **API URL suffix** text box empty.
 
-      ![WebApiBlankDefn](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/WebApiBlankDefn.PNG)
+      ![WebApiBlankDefn](img/WebApiBlankDefn.PNG)
 
    1. Select **Create**.
 
    > **Note**: Wait for the new API to finish being created.
 
-   ![WebApiBlankCreate](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/WebApiBlankCreate.PNG)
+   ![WebApiBlankCreate](img/WebApiBlankCreate.PNG)
 
 1. From the **Design** tab, select **Add operation**.
 
@@ -195,13 +195,13 @@ In this exercise, you created a new Azure web app by using a container image sou
 
    1. Select **Save**.
 
-      ![action](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/action.PNG)
+      ![action](img/action.PNG)
 
 1. Back from the **Design** tab, in the list of operations, select **All Operations**.
 
 1. In the **Design** section for **All Operations**, find the **Inbound processing** tile, and then select **Add policy**.
 
-   ![inboundadd](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/inboundadd.PNG)
+   ![inboundadd](img/inboundadd.PNG)
 
 1. In the **Add inbound policy** section, select the **Set headers** tile.
 
@@ -213,17 +213,17 @@ In this exercise, you created a new Azure web app by using a container image sou
 
    1. In the **Action** list, select **append**.
 
-      ![setheaderdefn](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/setheaderdefn.PNG)
+      ![setheaderdefn](img/setheaderdefn.PNG)
 
    1. Select **Save**.
 
-      ![setheadecreate](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/setheadecreate.PNG)
+      ![setheadecreate](img/setheadecreate.PNG)
 
 1. Back from the **Design** tab, in the list of operations, select **Echo Headers**.
 
 1. In the **Design** section for **Echo Headers**, find the **Backend** tile, and then select the pencil icon.
 
-   ![pencilicon](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/pencilicon.PNG)
+   ![pencilicon](img/pencilicon.PNG)
 
 1. In the **Backend** section, perform the following actions:
 
@@ -241,11 +241,11 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1. From the **Test** tab, select the **Echo Headers** operation.
 
-   ![Test](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/Test.PNG)
+   ![Test](img/Test.PNG)
 
 1. In the **Echo Headers** section, select **Send**.
 
-   ![Test1](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/Test1.PNG)
+   ![Test1](img/Test1.PNG)
 
 1. Observe the results of the API request.
 
@@ -269,7 +269,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
    1. Select **Save**.
 
-      ![operation2](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/operation2.PNG)
+      ![operation2](img/operation2.PNG)
 
 1. Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
@@ -281,7 +281,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
    > **Note**: At this point, the results should be in XML format.
 
-   ![Test3](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/Test3.PNG)
+   ![Test3](img/Test3.PNG)
 
 1. Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
@@ -308,7 +308,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1. In the policy code editor, select **Save**.
 
-   ![polituca1](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/polituca1.PNG)
+   ![polituca1](img/polituca1.PNG)
 
 1. Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
@@ -316,7 +316,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1. In the **Get Legacy Data** section, select **Send**.
 
-   ![Test4](https://github.com/JuanjoSalva/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/img/Test4.PNG)
+   ![Test4](img/Test4.PNG)
 
 1. Observe the results of the API request.
 
@@ -355,5 +355,4 @@ In this exercise, you built a proxy tier between your App Service resource and a
    ```
 
 
-   
 

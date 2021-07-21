@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "cbpduZtdr0SOdYzrIIXqtuky0ivcQsdEGo0sHeYTauAT9DmSRD5okYFa5i1EJ/JZekBeenlHQHlcOtV4dqqIMA==",
+  "success": true,
+  "projectFilePath": "E:\\JUANJO\\CURSO2020\\MODULO4_AZURE\\20487D\\AllFiles\\Mod09\\Labfiles\\Lab1\\Starter\\IdentityClient\\IdentityClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juanjo\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Juanjo\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Juanjo\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Juanjo\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Juanjo\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Juanjo\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Juanjo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

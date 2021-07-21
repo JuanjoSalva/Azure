@@ -7,15 +7,15 @@
 
 Crear **Storage accounts**.
 
-![storageCreado](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/storageCreado.PNG)
+![storageCreado](img/storageCreado.PNG)
 
 Crear **container**.
 
-![creamoscontenedor](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/creamoscontenedor.PNG)
+![creamoscontenedor](img/creamoscontenedor.PNG)
 
  **Upload**. fichero de creacion de bbdd
 
-![bbddfile](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/bbddfile.PNG)
+![bbddfile](img/bbddfile.PNG)
 
 
 
@@ -23,27 +23,27 @@ Crear **container**.
 
 ​	Creamos **SQL server**. 
 
-![CreamosSqlServer](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/CreamosSqlServer.PNG)
+![CreamosSqlServer](img/CreamosSqlServer.PNG)
 
 
 
 ​	**Importamos la BBDD.**
 
-![ImportamosBaseDeDatos](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/ImportamosBaseDeDatos.PNG)
+![ImportamosBaseDeDatos](img/ImportamosBaseDeDatos.PNG)
 
 ​	Vemos la **bbdd** creada
 
-![bbddcreada](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/bbddcreada.PNG)
+![bbddcreada](img/bbddcreada.PNG)
 
 
 
 **Setting Firewall**
 
-![settingfirewall](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/settingfirewall.PNG)
+![settingfirewall](img/settingfirewall.PNG)
 
 **Añadimos la Ip**
 
-![ip](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/ip.PNG)
+![ip](img/ip.PNG)
 
 
 
@@ -53,8 +53,8 @@ Crear **container**.
 
 - La primera vez da error porque hay que meter la contraseña.
 
-![abriendoAzureStudio](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/abriendoAzureStudio.PNG)
+![abriendoAzureStudio](img/abriendoAzureStudio.PNG)
 
 - Ahora ya conecta
 
-  ![Conectados](https://github.com/JuanjoSalva/Uploading-an-Azure-SQL-Database-to-Azure-and-Accessing-it-Locally/blob/main/Conectados.PNG)
+  ![Conectados](img/Conectados.PNG)

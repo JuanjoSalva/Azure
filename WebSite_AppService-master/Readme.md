@@ -62,20 +62,20 @@
 
     >**Note**: The browser displays the home page, and the URL is: http://azurewebapp{unique name}.azurewebsites.net/
     >
-    >![public1](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/public1.PNG)
+    >![public1](img/public1.PNG)
     >
-    >![public2](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/Local.PNG)
+    >![public2](img/Local.PNG)
 
 
-![creando_app_services](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/creando_app_services.PNG)
+![creando_app_services](img/creando_app_services.PNG)
 
-![publicando](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/publicando.PNG)
-
-
+![publicando](img/publicando.PNG)
 
 
 
-![Publicado](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/Publicado.PNG)
+
+
+![Publicado](img/Publicado.PNG)
 
 
 
@@ -129,9 +129,9 @@
 
 **Vemos la página en local:**
 
-![URL_publica](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/URL_publica.PNG)
+![URL_publica](img/URL_publica.PNG)
 
-** Ahora la vemos en el app s![URL_publica](https://github.com/JuanjoSalva/DEMO14_L2/blob/master/AzureWebAppExample/img/URL_publica.PNG)ervice**
+** Ahora la vemos en el app s![URL_publica](img/URL_publica.PNG)ervice**
 
 
 

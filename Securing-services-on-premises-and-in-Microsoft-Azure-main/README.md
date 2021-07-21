@@ -25,7 +25,7 @@
     dotnet new webapi --name Identity -f netcoreapp2.1
    ```
 
-   ![creamoswebapi](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/creamoswebapi.PNG)
+   ![creamoswebapi](img/creamoswebapi.PNG)
 
 4. To change the directory to the **Identity** project, run the following command:
 
@@ -40,7 +40,7 @@
     dotnet restore
    ```
 
-![EntityFrameworkCore](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/EntityFrameworkCore.PNG)
+![EntityFrameworkCore](img/EntityFrameworkCore.PNG)
 
 
 
@@ -91,7 +91,7 @@
        }
    ```
 
-   ![dbcontext](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/dbcontext.PNG)
+   ![dbcontext](img/dbcontext.PNG)
 
 8. To create the **DbInitializer** class, right-click the **Data** folder, select **New File**, and then name it **DbInitializer.cs**
 
@@ -150,7 +150,7 @@
         }
     ```
 
-![dbInitializer](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/dbInitializer.PNG)
+![dbInitializer](img/dbInitializer.PNG)
 
 #### Task 3: Register ASP.NET Core Identity in the startup file
 
@@ -205,7 +205,7 @@
        app.UseAuthentication();
    ```
 
-   ![startup](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/startup.PNG)
+   ![startup](img/startup.PNG)
 
 5. Open the **appsettings.json** file.
 
@@ -220,7 +220,7 @@
     "JwtExpireDays": 30,
    ```
 
-![appsetting](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/appsetting.PNG)
+![appsetting](img/appsetting.PNG)
 
 ### Exercise 2: Add authorization code
 
@@ -264,7 +264,7 @@
        public string Password { get; set; }
    ```
 
-   ![LoginDto](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/LoginDto.PNG)
+   ![LoginDto](img/LoginDto.PNG)
 
 7. To create a new **RegisterDto** class, right-click the **Models** folder, select **New File**, and then name it **RegisterDto.cs**
 
@@ -303,7 +303,7 @@
         public string Password { get; set; }
     ```
 
-    ![RegisterDto](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/RegisterDto.PNG)
+    ![RegisterDto](img/RegisterDto.PNG)
 
 12. To create a new **UserController** class, right-click  **Controllers**, select **New File**, and then enter **UserController.cs**.
 
@@ -467,7 +467,7 @@
         throw new ApplicationException("INVALID_LOGIN_ATTEMPT");
     ```
 
-![UserControl](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/UserControl.PNG)
+![UserControl](img/UserControl.PNG)
 
 #### Task 2: Add authorization attributes to value controller
 
@@ -491,7 +491,7 @@
        }
    ```
 
-![ValuesController](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/ValuesController.PNG)
+![ValuesController](img/ValuesController.PNG)
 
 ### Exercise 3: Run a client application to test the server
 
@@ -555,7 +555,7 @@
         Console.WriteLine(content);
     ```
 
-![clientprog](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/clientprog.PNG)
+![clientprog](img/clientprog.PNG)
 
 #### Task 2: Run the client code and inspect the user claims in the service
 
@@ -589,7 +589,7 @@
 
 7. Verify that **[value1, value2]** return back to the command prompt.
 
-   ![resultado](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/resultado.PNG)
+   ![resultado](img/resultado.PNG)
 
 8. Close all open windows.
 
@@ -613,7 +613,7 @@
 
 5. Enter the **Organization name** and **Initial domain name** values, and then click **Create**.
 
-   ![activedirectorycreado](https://github.com/JuanjoSalva/Securing-services-on-premises-and-in-Microsoft-Azure/blob/main/img/activedirectorycreado.PNG)
+   ![activedirectorycreado](img/activedirectorycreado.PNG)
 
 6. After the tenant is created, click **Directory+subscription**, and then select your tenant.
 

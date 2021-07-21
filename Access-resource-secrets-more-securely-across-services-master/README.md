@@ -16,7 +16,7 @@
 
    > **Note**: If this is your first time signing in to the Azure portal, you will be offered a tour of the portal. If you prefer to skip the tour, select **Get Started** to begin using the portal.
 
-![Conexion](Conexion.PNG)
+![Conexion](img/Conexion.PNG)
 
 #### Task 2: Create an Azure Storage account
 
@@ -32,7 +32,7 @@
 
    > **Note**: Each tab represents a step in the workflow to create a new storage account. You can select **Review + Create** at any time to skip the remaining tabs.
 
-   ![storagedefn](storagedefn.PNG)
+   ![storagedefn](img/storagedefn.PNG)
 
 1. From the **Basics** tab, perform the following actions:
 
@@ -52,7 +52,7 @@
 
    > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-   ![storagecreate](storagecreate.PNG)
+   ![storagecreate](img/storagecreate.PNG)
 
 1. In the Azure portal's navigation pane, select **All services**.
 
@@ -68,7 +68,7 @@
 
    > **Note**: It doesn't matter which connection string you choose. They are interchangeable.
 
-![storagestring](storagestring.PNG)
+![storagestring](img/storagestring.PNG)
 
 #### Task 3: Create an Azure Key Vault
 
@@ -100,7 +100,7 @@
 
    1. Select **Review + Create**.
 
-      ![keyvaultdefn](keyvaultdefn.PNG)
+      ![keyvaultdefn](img/keyvaultdefn.PNG)
 
 1. From the **Review + Create** tab, review the options that you selected during the previous steps.
 
@@ -108,7 +108,7 @@
 
    > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
-![keyvaultcreate](keyvaultcreate.PNG)
+![keyvaultcreate](img/keyvaultcreate.PNG)
 
 #### Task 4: Create an Azure Functions app
 
@@ -144,7 +144,7 @@
 
    1. Select **Next: Hosting**.
 
-      ![functiondefn](functiondefn.PNG)
+      ![functiondefn](img/functiondefn.PNG)
 
 1. From the **Hosting** tab, perform the following actions:
 
@@ -154,7 +154,7 @@
 
    1. In the **Plan type** drop-down list, select the **Consumption (Serverless)** option.
 
-      ![function2defn](function2defn.PNG)
+      ![function2defn](img/function2defn.PNG)
 
    1. Select **Review + Create**.
 
@@ -166,7 +166,7 @@
 
 > **Review**: In this exercise, you created all the resources that you'll use for this lab.
 
-![functioncreate](functioncreate.PNG)
+![functioncreate](img/functioncreate.PNG)
 
 ### Exercise 2: Configure secrets and identities
 
@@ -187,7 +187,7 @@
 
    > **Note**: Wait for the system-assigned managed identity to be created before you move forward with this lab.
 
-![confidentity](confidentity.PNG)
+![confidentity](img/confidentity.PNG)
 
 #### Task 2: Create a Key Vault secret
 
@@ -213,13 +213,13 @@
 
    > **Note**: Wait for the secret to be created before you move forward with this lab.
 
-   ![secrets1](secrets1.PNG)
+   ![secrets1](img/secrets1.PNG)
 
 1. Return to the Secrets pane, and then select the **storagecredentials** item in the list.
 
 1. In the Versions pane, select the latest version of the **storagecredentials** secret.
 
-   ![secrets2](secrets2.PNG)
+   ![secrets2](img/secrets2.PNG)
 
 1. In the Secret Version pane, perform the following actions:
 
@@ -229,7 +229,7 @@
 
    > **Note**: You are recording the value of the **Secret Identifier** text box, not the **Secret Value** text box.
 
-![secrets3](secrets3.PNG)
+![secrets3](img/secrets3.PNG)
 
 #### Task 3: Configure a Key Vault access policy
 
@@ -243,7 +243,7 @@
 
 1. In the Access policies pane, select **Add Access Policy**.
 
-   ![accesspolicity](accesspolicity.PNG)
+   ![accesspolicity](img/accesspolicity.PNG)
 
 1. From the **Add access policy** blade, perform the following actions:
 
@@ -263,7 +263,7 @@
 
    1. Select **Add**.
 
-      ![accesspolicity2](accesspolicity2.PNG)
+      ![accesspolicity2](img/accesspolicity2.PNG)
 
 1. Back in the Access policies pane, select **Save**.
 
@@ -279,7 +279,7 @@
 
 1. From the **App Service** blade, select the **Configuration** option from the **Settings** section.
 
-   ![FunctionConf](FunctionConf.PNG)
+   ![FunctionConf](img/FunctionConf.PNG)
 
 1. From the **Configuration** pane, perform the following actions:
 
@@ -293,7 +293,7 @@
 
    1. Leave the **deployment slot setting** text box set to its default value.
 
-      ![FunctionConf2](FunctionConf2.PNG)
+      ![FunctionConf2](img/FunctionConf2.PNG)
 
    1. Select **OK** to close the pop-up window and return to the **Configuration** section.
 
@@ -325,7 +325,7 @@
 
    > **Note**: You can review the documentation to [create a new project][azure-functions-core-tools-new-project] using the **Azure Functions Core Tools**.
 
-   ![funcinit](funcinit.PNG)
+   ![funcinit](img/funcinit.PNG)
 
 1. Enter the following command, and then select Enter to **build** the .NET Core 3.1 project:
 
@@ -333,7 +333,7 @@
    dotnet build
    ```
 
-![funcinit2](funcinit2.PNG)
+![funcinit2](img/funcinit2.PNG)
 
 #### Task 2: Create an HTTP-triggered function
 
@@ -347,7 +347,7 @@
 
 1. Close the currently running **Windows Terminal** application.
 
-![funcinit3](funcinit3.PNG)
+![funcinit3](img/funcinit3.PNG)
 
 #### Task 3: Configure and read an application setting
 
@@ -544,7 +544,7 @@
 
 1. Select **Save** to sae your changes to the **Echo.cs** file.
 
-   ![parse](parse.PNG)
+   ![parse](img/parse.PNG)
 
 #### Task 4: Validate the local function
 
@@ -564,7 +564,7 @@
 
    > **Note**: You can review the documentation to [start the function app project locally][azure-functions-core-tools-start-function] using the **Azure Functions Core Tools**.
 
-   ![funbuild](funbuild.PNG)
+   ![funbuild](img/funbuild.PNG)
 
 1. On the taskbar, select the **Windows Terminal** icon again to open a new instance of the **Windows Terminal** application.
 
@@ -576,9 +576,9 @@
 
    > **Note**: An error message is displayed by the httprepl tool. This message occurs because the tool is searching for a Swagger definition file to use to "traverse" the API. Because your functio projectp does not produce a Swagger definition file, you'll need to traverse the API manually.
 
-   ![httprepl](httprepl.PNG)
+   ![httprepl](img/httprepl.PNG)
 
-   ![httprepl2](httprepl2.PNG)
+   ![httprepl2](img/httprepl2.PNG)
 
 1. When you receive the tool prompt, enter the following command, and then select Enter to browse to the relative **api** directory:
 
@@ -611,7 +611,7 @@
    
    ```
 
-   ![httprepl3](httprepl3.PNG)
+   ![httprepl3](img/httprepl3.PNG)
 
 1. Enter the following command, and then select Enter to exit the **httprepl** application:
 
@@ -644,7 +644,7 @@
 
 1. Return to the currently open **Windows Terminal** window. Wait for the sign-in process to finish.
 
-   ![login](login.PNG)
+   ![login](img/login.PNG)
 
 1. Enter the following command, and then select Enter to publish the function app project:
 
@@ -658,7 +658,7 @@
 
 1. Close the currently running **Windows Terminal** application.
 
-   ![login](login.PNG)
+   ![login](img/login.PNG)
 
 #### Task 6: Test the Key Vault-derived application setting
 
@@ -678,7 +678,7 @@
 
 1. In the **Function** blade, select the **Code + Test** option from the **Developer** section.
 
-   ![CodeTest](CodeTest.PNG)
+   ![CodeTest](img/CodeTest.PNG)
 
 1. In the function editor, select **Test/Run**.
 
@@ -686,11 +686,11 @@
 
    - In the **HTTP method** list, select **GET**.
 
-     ![codetestrun](codetestrun.PNG)
+     ![codetestrun](img/codetestrun.PNG)
 
 1. Select **Run** to test the function.
 
-   ![CodeTestRun2](CodeTestRun2.PNG)
+   ![CodeTestRun2](img/CodeTestRun2.PNG)
 
 1. Observe the results of the test run. The result should be your Azure Storage connection string.
 
@@ -708,7 +708,7 @@
 
 1. From the **Storage account** blade, select the **Containers** link in the **Blob service** section.
 
-   ![storage1](storage1.PNG)
+   ![storage1](img/storage1.PNG)
 
 1. In the **Containers** section, select **+ Container**.
 
@@ -718,7 +718,7 @@
 
    1. In the **Public access level** drop-down list, select **Blob (anonymous read access for blobs only)**, and then select **OK**.
 
-      ![storage4](storage4.PNG)
+      ![storage4](img/storage4.PNG)
 
 1. Return to the **Containers** section, and then select the newly created **drop** container.
 
@@ -732,15 +732,15 @@
 
    > **Note**: Wait for the blob to upload before you continue with this lab.
 
-   ![storage5](storage5.PNG)
+   ![storage5](img/storage5.PNG)
 
 1. Return to the **Container** blade, and then select the **records.json** blob in the list of blobs.
 
-   ![storage6](storage6.PNG)
+   ![storage6](img/storage6.PNG)
 
 1. From the **Blob** blade, find the blob metadata, and then copy the URL for the blob.
 
-   ![Copiaurl](Copiaurl.PNG)
+   ![Copiaurl](img/Copiaurl.PNG)
 
 1. On the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
 
@@ -748,7 +748,7 @@
 
 1. The JavaScript Object Notation (JSON) contents of the blob should now display. Close the browser window with the JSON contents.
 
-   ![jsonbig](jsonbig.PNG)
+   ![jsonbig](img/jsonbig.PNG)
 
 1. Return to the browser window with the Azure portal, and then close the **Blob** blade.
 
@@ -759,7 +759,7 @@
    1. In the **Public access level** drop-down list, select **Private (no anonymous access)**.
    1. Select **OK**.
 
-   ![priavate](priavate.PNG)
+   ![priavate](img/priavate.PNG)
 
 1. On the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
 
@@ -769,7 +769,7 @@
 
    > **Note**: If the error message doesn't display, your browser might have cached the file. Press Ctrl+F5 to refresh the page until the error message displays.
 
-![url_error](url_error.PNG)
+![url_error](img/url_error.PNG)
 
 #### Task 2: Pull and configure the Azure SDK for .NET
 
@@ -789,7 +789,7 @@
 
    > **Note**: The [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/12.6.0) NuGet package references the subset of the Azure SDK for .NET required to write code for Azure Blob Storage.
 
-   ![anadir2](anadir2.PNG)
+   ![anadir2](img/anadir2.PNG)
 
 1. Close the currently running **Windows Terminal** application.
 
@@ -912,7 +912,7 @@
 
    > **Note**: As an example, if your **Function App name** is **securefuncstudent**, your command would be ``func azure functionapp publish securefuncstudent``. You can review the documentation to [publish the local function app project][azure-functions-core-tools-publish-azure] using the **Azure Functions Core Tools**.
 
-   ![publish](publish.PNG)
+   ![publish](img/publish.PNG)
 
 1. Wait for the deployment to finalize before you move forward with the lab.
 
@@ -942,7 +942,7 @@
 
 1. Select **Run** to test the function.
 
-   ![funcrun2](funcrun2.PNG)
+   ![funcrun2](img/funcrun2.PNG)
 
 1. Observe the results of the test run. The output will contain the content of the **$/drop/records.json** blob stored in your Azure Storage account.
 

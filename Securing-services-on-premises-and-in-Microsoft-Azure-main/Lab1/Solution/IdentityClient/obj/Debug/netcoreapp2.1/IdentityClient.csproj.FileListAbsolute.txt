@@ -1,0 +1,12 @@
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\bin\Debug\netcoreapp2.1\IdentityClient.deps.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\bin\Debug\netcoreapp2.1\IdentityClient.runtimeconfig.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\bin\Debug\netcoreapp2.1\IdentityClient.runtimeconfig.dev.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\bin\Debug\netcoreapp2.1\IdentityClient.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\bin\Debug\netcoreapp2.1\IdentityClient.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\IdentityClient\obj\Debug\netcoreapp2.1\IdentityClient.genruntimeconfig.cache

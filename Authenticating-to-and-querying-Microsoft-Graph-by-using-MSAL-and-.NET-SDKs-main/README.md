@@ -16,7 +16,7 @@
 
    > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
-![Conexion](Conexion.PNG)
+![Conexion](img/Conexion.PNG)
 
 #### Task 2: Create an application registration
 
@@ -26,7 +26,7 @@
 
 1. From the **Azure Active Directory** blade, select **App registrations** in the **Manage** section.
 
-   ![appregistration](appregistration.PNG)
+   ![appregistration](img/appregistration.PNG)
 
 1. In the **App registrations** section, select **New registration**.
 
@@ -40,17 +40,17 @@
 
    1. In the **Redirect URI** text box, enter **http\://localhost**.
 
-      ![appregistrationdef](appregistrationdef.PNG)
+      ![appregistrationdef](img/appregistrationdef.PNG)
 
    1. Select **Register**.
 
-      ![appregiscreada](appregiscreada.PNG)
+      ![appregiscreada](img/appregiscreada.PNG)
 
 #### Task 3: Enable the default client type
 
 1. In the **graphapp** application registration blade, select **Authentication** in the **Manage** section.
 
-   ![appregistrationmanage](appregistrationmanage.PNG)
+   ![appregistrationmanage](img/appregistrationmanage.PNG)
 
 1. In the **Authentication** section, perform the following actions:
 
@@ -58,7 +58,7 @@
 
    1. Select **Save**.
 
-      ![yes](yes.PNG)
+      ![yes](img/yes.PNG)
 
 #### Task 4: Record unique identifiers
 
@@ -68,7 +68,7 @@
 
 1.  In the **Overview** section, find and record the value of the **Directory (tenant) ID** text box. You'll use this value later in the lab.
 
-![ids](ids.PNG)
+![ids](img/ids.PNG)
 
 #### Review
 
@@ -94,7 +94,7 @@ In this exercise, you created a new application registration and recorded import
 
    > **Note**: The **dotnet new** command will create a new **console** project in a folder with the same name as the project.
 
-   ![newconsole](newconsole.PNG)
+   ![newconsole](img/newconsole.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to import version 4.7.1 of **Microsoft.Identity.Client** from NuGet:
 
@@ -104,7 +104,7 @@ In this exercise, you created a new application registration and recorded import
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.Identity.Client** package from NuGet. For more information, go to [Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/4.7.1).
 
-   ![newconsole2](newconsole2.PNG)
+   ![newconsole2](img/newconsole2.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
@@ -112,7 +112,7 @@ In this exercise, you created a new application registration and recorded import
    dotnet build
    ```
 
-   ![build](build.PNG)
+   ![build](img/build.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -199,7 +199,7 @@ In this exercise, you created a new application registration and recorded import
    }
    ```
 
-![Code1](Code1.PNG)
+![Code1](img/Code1.PNG)
 
 #### Task 3: Obtain a Microsoft Authentication Library (MSAL) token
 
@@ -351,7 +351,7 @@ In this exercise, you created a new application registration and recorded import
 
 1. Save the **Program.cs** file.
 
-   ![Code2](Code2.PNG)
+   ![Code2](img/Code2.PNG)
 
 #### Task 4: Test the updated application
 
@@ -367,7 +367,7 @@ In this exercise, you created a new application registration and recorded import
 
 1. The running console application will automatically open an instance of the default browser.
 
-   ![permisos](permisos.PNG)
+   ![permisos](img/permisos.PNG)
 
 1. In the open browser window, perform the following actions:
 
@@ -383,13 +383,13 @@ In this exercise, you created a new application registration and recorded import
 
    1. Select **Accept**.
 
-      ![permitido](permitido.PNG)
+      ![permitido](img/permitido.PNG)
 
 1. Return to the currently running Visual Studio Code application.
 
 1. Observe the token rendered in the output from the currently running console application.
 
-   ![token](token.PNG)
+   ![token](img/token.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -411,7 +411,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.Graph** package from NuGet. For more information, go to [Microsoft.Graph](https://www.nuget.org/packages/Microsoft.Graph/1.21.0).
 
-   ![anadido](anadido.PNG)
+   ![anadido](img/anadido.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to import version 1.0.0-preview.2 of **Microsoft.Graph.Auth** from NuGet:
 
@@ -421,7 +421,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.Graph.Auth** package from NuGet. For more information, go to [Microsoft.Graph.Auth](https://www.nuget.org/packages/Microsoft.Graph.Auth/1.0.0-preview.2).
 
-   ![anadido2](anadido2.PNG)
+   ![anadido2](img/anadido2.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
@@ -429,7 +429,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
    dotnet build
    ```
 
-   ![build2](build2.PNG)
+   ![build2](img/build2.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -612,7 +612,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\06\\Solution\\GraphClient** folder.
 
-   ![token2](token2.PNG)
+   ![token2](img/token2.PNG)
 
 1. Observe the message in the output from the currently running console application. Record the value of the code in the message. You'll use this value later in the lab.
 
@@ -622,7 +622,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
 1. In the open browser window, go to <https://microsoft.com/devicelogin>.
 
-   ![web](web.PNG)
+   ![web](img/web.PNG)
 
 1. On the **Enter code** webpage: **el mio es:D3A3KJ6XV**, perform the following actions:
 
@@ -630,7 +630,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
    1.  Select **Next**.  
 
-   ![web2](web2.PNG)
+   ![web2](img/web2.PNG)
 
 1. On the login webpage, perform the following actions:
 
@@ -640,12 +640,12 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
    > **Note**: You might have the option to select an existing Microsoft account as opposed to signing in again.
 
-   ![web3](web3.PNG)
+   ![web3](img/web3.PNG)
 
 1. Return to the currently running Visual Studio Code application.
 
 1. Observe the output from the Microsoft Graph request in the currently running console application.
 
-   ![aceptado](aceptado.PNG)
+   ![aceptado](img/aceptado.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.

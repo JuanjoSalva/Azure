@@ -14,7 +14,7 @@
 
    > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
-![Conexion](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/Conexion.PNG)
+![Conexion](img/Conexion.PNG)
 
 #### Task 2: Open Azure Cloud Shell
 
@@ -34,7 +34,7 @@
    az --version
    ```
 
-![version](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/version.PNG)
+![version](img/version.PNG)
 
 #### Task 3: View the Microsoft.EventGrid provider registration
 
@@ -46,7 +46,7 @@
       az --help
       ```
 
-      ![help](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/help.PNG)
+      ![help](img/help.PNG)
 
    1. Enter the following command, and then select Enter to get a list of the commands that are available for resource providers:
 
@@ -54,7 +54,7 @@
       az provider --help
       ```
 
-      ![provider](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/provider.PNG)
+      ![provider](img/provider.PNG)
 
    1. Enter the following command, and then select Enter to list all currently registered providers:
 
@@ -62,7 +62,7 @@
       az provider list
       ```
 
-      ![list](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/list.PNG)
+      ![list](img/list.PNG)
 
    1. Enter the following command, and then select Enter to list just the namespaces of the currently registered providers:
 
@@ -70,14 +70,14 @@
       az provider list --query "[].namespace"
       ```
 
-      ![namespace](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/namespace.PNG)
+      ![namespace](img/namespace.PNG)
 
    1. Review the list of currently registered providers. Notice that the **Microsoft.EventGrid** provider is currently included in the list of providers.
 
-      ![eventgrid](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/eventgrid.PNG)
+      ![eventgrid](img/eventgrid.PNG)
       
       
-       ![eventgrid](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/eventsubscriptioncreate2.PNG)
+       ![eventgrid](img/eventsubscriptioncreate2.PNG)
 
 1. Close the Cloud Shell pane.
 
@@ -101,13 +101,13 @@
 
    1. From the **Location** drop-down list, select the **(US) East US** region.
 
-      ![topicdefn](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/topicdefn.PNG)
+      ![topicdefn](img/topicdefn.PNG)
 
    1.  From the **Event Schema** drop-down list, select **Event Grid Schema**, and then select **Create**.
    
    > **Note**: Wait for Azure to finish creating the topic before you continue with the lab. You'll receive a notification when the app is created.
 
-![topiccreate](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/topiccreate.PNG)
+![topiccreate](img/topiccreate.PNG)
 
 #### Task 5: Deploy the Azure Event Grid viewer to a web app
 
@@ -145,7 +145,7 @@
 
    1. Leave the **SKU and size** section set to its default value.
 
-      ![webappdef](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/webappdef.PNG)
+      ![webappdef](img/webappdef.PNG)
 
    1.  Select **Next: Docker**.
 
@@ -161,7 +161,7 @@
 
    1. Select **Review + Create**.
 
-      ![webappdef2](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/webappdef2.PNG)
+      ![webappdef2](img/webappdef2.PNG)
 
 1. On the **Review + Create** tab, review the options that you selected during the previous steps.
 
@@ -169,7 +169,7 @@
 
    > **Note**: Wait for Azure to finish creating the web app before you continue with the lab. You'll receive a notification when the app is created.
 
-![webappcreate](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/webappcreate.PNG)
+![webappcreate](img/webappcreate.PNG)
 
 #### Review
 
@@ -189,15 +189,15 @@ In this exercise, you created the Event Grid topic and a web app that you will u
 
 1. In the **Properties** section, record the value of the **URL** text box. You'll use this value later in the lab.
 
-   ![urltext](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/urltext.PNG)
+   ![urltext](img/urltext.PNG)
 
-   ![web1](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/web1.PNG)
+   ![web1](img/web1.PNG)
 
 1. Select **Overview**.
 
 1. In the **Overview** section, select **Browse**.
 
-   ![web1](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/web1.PNG)
+   ![web1](img/web1.PNG)
 
 1. Observe the currently running **Azure Event Grid viewer** web application. Leave this web application running for the remainder of the lab.
 
@@ -229,13 +229,13 @@ In this exercise, you created the Event Grid topic and a web app that you will u
 
       > **Note**: For example, if your **Web App URL** value is **http://eventviewerstudent.azurewebsites.net/**, then your **Subscriber Endpoint** would be **https://eventviewerstudent.azurewebsites.net/api/updates**.
 
-      ![eventsubscription](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/eventsubscription.PNG)
+      ![eventsubscription](img/eventsubscription.PNG)
 
    1. Select **Create**.
    
    > **Note**: Wait for Azure to finish creating the subscription before you continue with the lab. You'll receive a notification when the app is created.
 
-![eventsubscriptioncreate](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/eventsubscriptioncreate.PNG)
+![eventsubscriptioncreate](img/eventsubscriptioncreate.PNG)
 
 #### Task 3: Observe the subscription validation event
 
@@ -245,7 +245,7 @@ In this exercise, you created the Event Grid topic and a web app that you will u
 
 1. Select the event and review its JSON content.
 
-   ![json](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/json.PNG)
+   ![json](img/json.PNG)
 
 1.  Return to your currently open browser window with the Azure portal.
 
@@ -259,13 +259,13 @@ In this exercise, you created the Event Grid topic and a web app that you will u
 
 1. On the **Event Grid Topic** blade, record the value of the **Topic Endpoint** field. You'll use this value later in the lab.
 
-   ![topicendpoint](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/topicendpoint.PNG)
+   ![topicendpoint](img/topicendpoint.PNG)
 
 1.  In the **Settings** category, select the **Access keys** link.
 
 1. In the **Access keys** section, record the value of the **Key 1** text box. You'll use this value later in the lab.
 
-   ![accsesskey](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/accsesskey.PNG)
+   ![accsesskey](img/accsesskey.PNG)
 
 #### Review
 
@@ -291,7 +291,7 @@ In this exercise, you created a new subscription, validated its registration, an
 
    > **Note**: The **dotnet new** command will create a new **console** project in a folder with the same name as the project.
 
-   ![dotnet](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/dotnet.PNG)
+   ![dotnet](img/dotnet.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to import version 3.2.0 of **Microsoft.Azure.EventGrid** from NuGet:
 
@@ -301,7 +301,7 @@ In this exercise, you created a new subscription, validated its registration, an
 
    > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.EventGrid** package from NuGet. For more information, go to [Microsoft.Azure.EventGrid](https://www.nuget.org/packages/Microsoft.Azure.EventGrid/3.2.0).
 
-   ![addpaquete](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/addpaquete.PNG)
+   ![addpaquete](img/addpaquete.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
@@ -309,7 +309,7 @@ In this exercise, you created a new subscription, validated its registration, an
    dotnet build
    ```
 
-   ![build](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/build.PNG)
+   ![build](img/build.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -549,7 +549,7 @@ In this exercise, you created a new subscription, validated its registration, an
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\10\\Solution\\EventPublisher** folder.
 
-   ![build2](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/build2.PNG)
+   ![build2](img/build2.PNG)
 
 1. Observe the success message output from the currently running console application.
 
@@ -561,11 +561,11 @@ In this exercise, you created a new subscription, validated its registration, an
 
 1. Review the **Employees.Registration.New** events that were created by your console application.
 
-   ![web2](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/web2.PNG)
+   ![web2](img/web2.PNG)
 
 1. Select any of the events and review its JSON content.
 
-   ![web3](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/web3.PNG)
+   ![web3](img/web3.PNG)
 
 1.  Return to the Azure portal.
 
@@ -587,7 +587,7 @@ In this exercise, you published new events to your Event Grid topic using a .NET
 
    > **Note**: Wait for Cloud Shell to finish its initial setup procedures before moving forward with the lab. If you don't notice the Cloud Shell configuration options, this is most likely because you're using an existing subscription with this course's labs. The labs are written with the presumption that you're using a new subscription.
 
-![shell](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/shell.PNG)
+![shell](img/shell.PNG)
 
 #### Task 2: Delete resource groups
 
@@ -598,4 +598,4 @@ In this exercise, you published new events to your Event Grid topic using a .NET
    ```
 
 
-![borrar](https://github.com/JuanjoSalva/Publishing-and-subscribing-to-Event-Grid-events/blob/master/img/borrar.PNG)
+![borrar](img/borrar.PNG)

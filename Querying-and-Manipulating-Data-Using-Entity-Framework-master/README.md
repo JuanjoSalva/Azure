@@ -23,21 +23,22 @@ Entregar el url de GitHub con la solución y un readme con las siguiente informa
    <pre><code>
      dotnet new classlib --name DAL -f netcoreapp2.1 --output E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod02\LabFiles\Lab1\Starter\DAL  
    </code></pre>
-
+   
+   
+   
    
 
-   
 Instalamos el paquete de EntityFramework
-   
+
    <pre><code>
        dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version=2.2.1
     dotnet restore
 </code></pre>
    
 
-   
-![1y2](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/1y2.PNG)
-   
+
+![1y2](img/1y2.PNG)
+
 
    Abrimos el código y :
 
@@ -47,21 +48,21 @@ Instalamos el paquete de EntityFramework
 
    Creamos la clase Contexto de la base de datos.
 
-   ![modelo](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/modelo.PNG)
+   ![modelo](img/modelo.PNG)
 
    **Exercise 2: Query your database**
-   
+
    Creamos un nuevo ASP.NET Core Console Application
 
    <pre><code>
      dotnet new console --name DatabaseTester -f netcoreapp2.1 --output E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester
    </code></pre>
 
-   ![ex2_1](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/ex2_1.PNG)
-   
-   
+   ![ex2_1](img/ex2_1.PNG)
+
+
 Para crear una nueva solución en los proyectos DAL  y DatabaseTester, ejecutamos el siguiente comando: 
-   
+
 <pre><code>
     dotnet new sln --name Mod2Lab1  
    </code></pre>
@@ -71,12 +72,12 @@ Para crear una nueva solución en los proyectos DAL  y DatabaseTester, ejecutamo
 dotnet sln Mod2Lab1.sln add DAL\DAL.csproj
    </code></pre>
    Añadir el proyecto DatabaseTester a la solución
-   
+
 <pre><code>
        dotnet sln Mod2Lab1.sln add DatabaseTester\DatabaseTester.csproj
    </code></pre>
-   ![ex2_2](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/ex2_2.PNG)
-   
+   ![ex2_2](img/ex2_2.PNG)
+
    Añadimos al proyecto la referencia de DAL
 
 
@@ -95,7 +96,7 @@ dotnet sln Mod2Lab1.sln add DAL\DAL.csproj
 
 
 
-   ![bbddctreada](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/bbddctreada.PNG)
+   ![bbddctreada](img/bbddctreada.PNG)
 
    ### Lab: Manipulating Data
 
@@ -121,7 +122,7 @@ Añadimos el proyecto DAL.test  a la solución
      dotnet sln Mod2Lab2.sln add DAL.Test\DAL.Test.csproj
 </code></pre>
 
-![ex23](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/ex23.PNG)
+![ex23](img/ex23.PNG)
 
 Añadimos la referencia al proyecto DAL 
 
@@ -139,7 +140,7 @@ Ejecutamos el sets
 <pre><code>
     dotnet test
 </code></pre>
-![dotnettest](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/dotnettest.PNG)
+![dotnettest](img/dotnettest.PNG)
 
 
 
@@ -149,7 +150,7 @@ Elegimos \SQLEXPRESS y conectamos
 
 Cogemos el servidor .\sqlexpress y expandimos databases y seleccionamos Mod2Lab2DB. Expandimos las tablas, pinchamos en la dbo.Bookings y hacemos un Select Top 100 rows
 
-![datos](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/datos.PNG)
+![datos](img/datos.PNG)
 
 **Task 3: Replace the SQL Server provider with SQLite**
 
@@ -161,7 +162,7 @@ ejecutamos:
 
 <pre><code>dotnet restore</code><code></pre>
 
-![replacesqlserver](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/replacesqlserver.PNG)
+![replacesqlserver](img/replacesqlserver.PNG)
 
 abrimos el Visual code y hacemos el cambio.
 
@@ -169,11 +170,11 @@ abrimos el Visual code y hacemos el cambio.
 
 Hacemos de nuevo el Test en SqlLite
 
-![dotnettest2](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/dotnettest2.PNG)
+![dotnettest2](img/dotnettest2.PNG)
 
 Abrimos el  **DB Browser for SQLite**
 
-![sqllite](https://github.com/JuanjoSalva/Querying-and-Manipulating-Data-Using-Entity-Framework/blob/master/img/sqllite.PNG)
+![sqllite](img/sqllite.PNG)
 
 
 

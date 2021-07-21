@@ -769,7 +769,7 @@ In this exercise, you created a console application to access your API by using 
 
 2. Verify Web Load Tester is setting up (Tools Options).
 
-   [![image-20210120111539835](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/raw/master/img/image-20210120111539835.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120111539835.png)
+   [![image-20210120111539835](img/image-20210120111539835.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120111539835.png)
 
 3. Create a web load tester
 
@@ -802,11 +802,11 @@ In this exercise, you created a console application to access your API by using 
 
 4. Back in the **WebTest1.webtest** blade, select **Run test**.
 
-   [![image-20210120114531930](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/raw/master/img/image-20210120114531930.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120114531930.png)
+   [![image-20210120114531930](img/image-20210120114531930.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120114531930.png)
 
 5. In the **Test Result window**, wait for the test to start before you proceed with the lab.
 
-   [![image-20210120115015991](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/raw/master/img/image-20210120115015991.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120115015991.png)
+   [![image-20210120115015991](img/image-20210120115015991.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120115015991.png)
 
    > **Note**: Most load tests take about 3 minutes to gather the resources and start. You can wait at this blade because it will automatically refresh when the load testing is started.
 

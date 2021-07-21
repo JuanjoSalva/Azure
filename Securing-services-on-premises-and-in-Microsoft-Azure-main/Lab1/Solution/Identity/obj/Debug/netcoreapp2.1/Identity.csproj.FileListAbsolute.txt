@@ -1,0 +1,17 @@
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\appsettings.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\Identity.deps.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\Identity.runtimeconfig.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\Identity.runtimeconfig.dev.json
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\Identity.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\bin\Debug\netcoreapp2.1\Identity.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.csprojAssemblyReference.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.AssemblyInfoInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.AssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.csproj.CoreCompileInputs.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.RazorAssemblyInfo.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.RazorAssemblyInfo.cs
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.RazorTargetAssemblyInfo.cache
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.dll
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.pdb
+E:\JUANJO\CURSO2020\MODULO4_AZURE\20487D\AllFiles\Mod09\Labfiles\Lab1\Solution\Identity\obj\Debug\netcoreapp2.1\Identity.genruntimeconfig.cache

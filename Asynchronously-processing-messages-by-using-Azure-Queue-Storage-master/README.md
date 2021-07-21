@@ -50,7 +50,7 @@
 
 1. On the **Review + Create** tab, review the options that you specified in the previous steps.
 
-   ![storagedefn](storagedefn.PNG)
+   ![storagedefn](img/storagedefn.PNG)
 
 1. Select **Create** to create the storage account by using your specified configuration.
 
@@ -58,7 +58,7 @@
 
 1. Select the **Go to resource** button on the **Deployment** blade to go to the newly created storage account.
 
-   ![storagecreate](storagecreate.PNG)
+   ![storagecreate](img/storagecreate.PNG)
 
 1. On the **Storage account** blade, find the **Settings** section, and then select **Access keys**.
 
@@ -66,7 +66,7 @@
 
    > **Note**: It doesn't matter which connection string you choose. They are interchangeable.
 
-![storageconectionstring](storageconectionstring.PNG)
+![storageconectionstring](img/storageconectionstring.PNG)
 
 #### Review
 
@@ -92,7 +92,7 @@ In this exercise, you created a new Azure Storage account that you'll use throug
 
    > **Note**: The **dotnet new** command will create a new **console** project in a folder with the same name as the project.
 
-   ![dotnet](dotnet.PNG)
+   ![dotnet](img/dotnet.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to import version 12.0.0 of **Azure.Storage.Queues** from NuGet:
 
@@ -102,7 +102,7 @@ In this exercise, you created a new Azure Storage account that you'll use throug
 
    > **Note**: The **dotnet add package** command will add the **Azure.Storage.Queues** package from NuGet. For more information, go to [Azure.Storage.Queues](https://www.nuget.org/packages/Azure.Storage.Queues/12.0.0).
 
-   ![anadirpaqueteazurestorage](anadirpaqueteazurestorage.PNG)
+   ![anadirpaqueteazurestorage](img/anadirpaqueteazurestorage.PNG)
 
 1. At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
@@ -110,7 +110,7 @@ In this exercise, you created a new Azure Storage account that you'll use throug
    dotnet build
    ```
 
-   ![build](build.PNG)
+   ![build](img/build.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -236,7 +236,7 @@ In this exercise, you created a new Azure Storage account that you'll use throug
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-   ![run](run.PNG)
+   ![run](img/run.PNG)
 
 1. Observe the output from the currently running console application. The output contains metadata for the queue endpoint.
 
@@ -338,7 +338,7 @@ In this exercise, you configured your .NET project to access the Storage service
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-   ![build2a](build2a.PNG)
+   ![build2a](img/build2a.PNG)
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -354,7 +354,7 @@ In this exercise, you configured your .NET project to access the Storage service
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-   ![run2](run2.PNG)
+   ![run2](img/run2.PNG)
 
 1. Observe the output from the currently running console application. The output indicates that no messages are in the queue.
 
@@ -374,13 +374,13 @@ In this exercise, you configured your .NET project to access the Storage service
 
    > **Note**: If this is your first time opening Storage Explorer by using the portal, you might be prompted to allow the portal to open these types of links in the future. You should accept the prompt.
 
-   ![openazurestorage](openazurestorage.PNG)
+   ![openazurestorage](img/openazurestorage.PNG)
 
 1. In the **Azure Storage Explorer** application, you will notice a prompt to sign in to your Azure account. Sign in by performing the following actions:
 
     1. In the popup dialog, select **Sign in**.
 
-       ![azureexplorer](azureexplorer.PNG)
+       ![azureexplorer](img/azureexplorer.PNG)
 
     1.  In the **Connect to Azure Storage** window, select **Add an Azure Account**, in the **Azure environment** list select **Azure**, and then select **Next**.
 
@@ -392,7 +392,7 @@ In this exercise, you configured your .NET project to access the Storage service
 
     1. Observe that you are returned back to the **EXPLORER** pane with your subscription information populated.
 
-       ![azureexplorer1](azureexplorer1.PNG)
+       ![azureexplorer1](img/azureexplorer1.PNG)
 
 1. From the **Azure Storage Explorer** application, in the **EXPLORER** pane, find and expand the **asyncstor*[yourname]*** storage account that you created earlier in this lab.
 
@@ -400,11 +400,11 @@ In this exercise, you configured your .NET project to access the Storage service
 
 1. In the **Queues** node, open the **messagequeue** queue that you created earlier in this lab by using .NET code.
 
-   ![queuesCaptura](queuesCaptura.PNG)
+   ![queuesCaptura](img/queuesCaptura.PNG)
 
 1. On the **messagequeue** tab, select **Add Message**.
 
-   ![queuesinsert](queuesinsert.PNG)
+   ![queuesinsert](img/queuesinsert.PNG)
 
 1. In the **Add Message** pop-up window, perform the following actions:
 
@@ -416,11 +416,11 @@ In this exercise, you configured your .NET project to access the Storage service
 
     1. Ensure that the **Encode message body in Base 64** check box isn't selected. **(Esto hará que el mensaje se vea en codificacion base 64 y no el texto como lo hemos escrito
 
-       ![insertado](insertado.PNG)
+       ![insertado](img/insertado.PNG)
 
     1. Select **OK**.
 
-       ![insertado2](insertado2.PNG)
+       ![insertado2](img/insertado2.PNG)
 
 1. Return to the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
@@ -432,14 +432,14 @@ In this exercise, you configured your .NET project to access the Storage service
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-    ![run3](run3.PNG)
+    ![run3](img/run3.PNG)
 
 1. Observe the output from the currently running console application. The output includes the new message that you created.
 
 1. Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
    Vemos que en el Azure Storage Explorer no se borra el mensaje
-   ![insertado3](insertado2.PNG)
+   ![insertado3](img/insertado2.PNG)
 
 #### Task 3: Delete queued messages
 
@@ -487,7 +487,7 @@ In this exercise, you configured your .NET project to access the Storage service
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-   ![run4](run4.PNG)
+   ![run4](img/run4.PNG)
 
 1. Observe the output from the currently running console application. The message that you created earlier in the lab still exists because it hasn't been deleted previously.
 
@@ -503,12 +503,12 @@ In this exercise, you configured your .NET project to access the Storage service
 
    > **Note**: You might need to refresh the queue.
 
-![message1](message1.PNG)
+![message1](img/message1.PNG)
 
 
 Vemos que en el Azure Storage Explorer sí se borra el mensaje
 
-![Borra](Borra.PNG)
+![Borra](img/Borra.PNG)
 
 #### Review
 
@@ -575,7 +575,7 @@ In this exercise, you read and deleted existing messages from the Storage queue 
 
    > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-   ![run5](run5.PNG)
+   ![run5](img/run5.PNG)
 
 1. Observe the output from the currently running console application. The content of the new message that you sent should be in the output.
 
@@ -593,7 +593,7 @@ In this exercise, you read and deleted existing messages from the Storage queue 
 
    > **Note**: You might need to refresh the queue.
 
-![messages](messages.PNG)
+![messages](img/messages.PNG)
 
 #### Review
 
