@@ -806,7 +806,7 @@ In this exercise, you created a console application to access your API by using 
 
 5. In the **Test Result window**, wait for the test to start before you proceed with the lab.
 
-   [![image-20210120115015991](img/image-20210120115015991.png)](https://github.com/BillyClassTime/Monitoring-services-deployed-to-Azure/blob/master/img/image-20210120115015991.png)
+   [![image-20210120115015991](img/image-20210120115015991.png)](img/image-20210120115015991.png)
 
    > **Note**: Most load tests take about 3 minutes to gather the resources and start. You can wait at this blade because it will automatically refresh when the load testing is started.
 
